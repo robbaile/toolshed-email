@@ -44,7 +44,7 @@ app.post('/email', (req, res) => {
         } else {
             res.send({
                 success: true,
-                message: 'Saved blog',
+                message: 'Saved email',
                 blogs: data
             });
         }
