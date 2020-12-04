@@ -10,6 +10,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
 
+app.get('/', (req, res) => {
+    res.send('Hello World')
+})
+
 app.post('/email', (req, res) => {
     AWS.config.update({
         accessKeyId: process.env.AWS_ACCESSKEYID,
