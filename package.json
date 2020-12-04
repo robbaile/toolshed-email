@@ -1,0 +1,27 @@
+{
+  "name": "toolshed-email",
+  "version": "1.0.0",
+  "description": "A small email service to store emails for toolshed",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robbaile/toolshed-email.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robbaile/toolshed-email/issues"
+  },
+  "homepage": "https://github.com/robbaile/toolshed-email#readme",
+  "dependencies": {
+    "aws-sdk": "^2.803.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
